@@ -1,0 +1,14 @@
+.card {
+  margin: 1em;
+}
+
+.gif {
+  max-width: 300px;
+}
+.link {
+  color: #ba0000;
+}
+
+.link:hover {
+  color: red;
+}
