@@ -14,4 +14,5 @@
 
 .link:hover {
   color: #a75c66;
+  text-decoration: underline;
 }

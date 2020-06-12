@@ -6,7 +6,7 @@ export default function Flex({ code, title }) {
         <img className={styles.gif} src={`/images/${code}.gif`} />
       </p>
       <a className={styles.link} href={`https://httpstatuses.com/${code}`}>
-        {title}
+        {code}: {title} &#x2197;
       </a>
     </div>
   );
