@@ -37,6 +37,8 @@ export default function Home() {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            background-color: #fff5f6;
+            color: #2a2135;
           }
 
           main {

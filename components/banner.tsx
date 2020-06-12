@@ -17,8 +17,8 @@ export default function Banner() {
           .banner {
             position: absolute;
             top: 0;
-            color: white;
-            background-color: black;
+            color:#fff5f6;
+            background-color: #2a2135;
             width: 100%;
             padding: 0.5em;
             line
@@ -27,7 +27,7 @@ export default function Banner() {
             max-width: 1110px;
           }
           .donationLink {
-            color: white;
+            color: #fff5f6;
             font-weight: bold;
           }
         `}</style>
