@@ -1,3 +1,9 @@
+# HTTRiRi
+
+![screenshot of HTTRiRi website](public/homepage-screenshot.png)
+
+Explore HTTP status codes with this collection of Rihanna GIFs. Each GIF links to the relevant https://httpstatuses.com/ page.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
