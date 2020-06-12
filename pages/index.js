@@ -31,8 +31,15 @@ export default function Home() {
       <Banner />
       <div className="container">
         <Head>
+          <meta property="og:title" content="HTTRiRi" />
           <title>HTTRiRi</title>
           <link rel="icon" href="/favicon.ico" />
+          <meta property="og:image" content="/homepage-screenshot.png" />
+          <meta property="og:url" content="https://httriri.com" />
+          <meta
+            property="og:description"
+            content="Explore HTTP status codes with this collection of Rihanna GIFs"
+          />
         </Head>
 
         <main>
@@ -103,6 +110,9 @@ export default function Home() {
           }
 
           @media (max-width: 600px) {
+            main {
+              padding: 6rem 0;
+            }
             .grid {
               width: 100%;
               flex-direction: column;
