@@ -1,13 +1,6 @@
 .heading {
-  margin: 0;
-  line-height: 1.15;
   font-size: 4rem;
-}
-
-.heading,
-.subheading {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin: 0;
 }
 
 .accent {
