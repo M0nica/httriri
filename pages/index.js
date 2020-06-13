@@ -2,8 +2,6 @@ import SEO from "../components/seo";
 import Banner from "../components/banner";
 import Header from "../components/header";
 import Disclaimer from "../components/disclaimer";
-import statuses from "../utils/statuses";
-import StatusCodeCard from "../components/statusCodeCard";
 import StatusCodeGrid from "../components/statusCodeGrid";
 import Footer from "../components/footer";
 
