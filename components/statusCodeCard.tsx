@@ -1,5 +1,6 @@
-import styles from "./statusCode.module.css";
-export default function Flex({ code, title }) {
+import styles from "./statusCodeCard.module.css";
+
+export default function StatusCodeCard({ code, title }) {
   return (
     <div className={styles.card}>
       <p>

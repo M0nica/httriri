@@ -1,0 +1,17 @@
+.banner {
+  position: absolute;
+  top: 0;
+  color: #fff5f6;
+  background-color: #2a2135;
+  width: 100%;
+  padding: 0.5em;
+}
+
+.banner blockquote {
+  max-width: 1110px;
+}
+
+.donationLink {
+  color: #fff5f6;
+  font-weight: bold;
+}
