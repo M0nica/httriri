@@ -5,8 +5,13 @@ import styles from "./statusCodeGrid.module.css";
 export default function Grid() {
   return (
     <div className={styles.grid}>
-      {statuses.map(({ code, title }) => (
-        <StatusCodeCard code={code} title={title} key={code} />
+      {statuses.map(({ code, title, description }) => (
+        <StatusCodeCard
+          code={code}
+          title={title}
+          description={description}
+          key={code}
+        />
       ))}
     </div>
   );
