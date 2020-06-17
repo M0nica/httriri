@@ -32,6 +32,7 @@ const statuses = [
     title: "Bad Request",
     description: "Rihanna shaking her finger 'no'",
   },
+
   {
     code: 402,
     title: "Payment Required",
@@ -42,6 +43,12 @@ const statuses = [
     title: "Forbidden",
     description:
       "Rihanna rolling her eyes at some one before her limo window rolls up",
+  },
+  {
+    code: 404,
+    title: "Not Found",
+    description:
+      "Rihanna singing Story of my life Searching for the right But it keeps avoiding me",
   },
   {
     code: 406,
