@@ -10,12 +10,24 @@ const statuses = [
     description: "Rihanna splashing water around in a music video",
   },
   {
+    code: 102,
+    title: "Processing",
+    description: "Rihanna tapping the side of her head with her finger, in thought.",
+  },
+  {
     code: 200,
     title: "OK",
     description:
       "Rihanna nodding her head while cheering on Lizzo at the BET Awards 2019",
   },
+  {
+    code: 201,
+    title: "Created",
+    description:
+      "Rihanna walking with joy in the Man Down video",
+  },
   { code: 202, title: "Accepted", description: "Rihanna with a bob winking" },
+  {code : 204, title:"No Content", description:"Rihanna sitting and saying why},
   {
     code: 300,
     title: "Multiple Choices",
