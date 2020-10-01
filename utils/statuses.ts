@@ -27,7 +27,7 @@ const statuses = [
       "Rihanna walking with joy in the Man Down video",
   },
   { code: 202, title: "Accepted", description: "Rihanna with a bob winking" },
-  { code: 206, title: "Partial Content", description: "Rihanna saying \"It's me in a collection\"" },
+  { code: 206, title: "Partial Content", description: "Rihanna saying \"It's me in a collection\" while infront of a solid white background" },
   {
     code: 300,
     title: "Multiple Choices",
