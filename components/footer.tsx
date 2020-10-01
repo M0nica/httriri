@@ -14,7 +14,14 @@ export default function Footer() {
           </a>{" "}
           by <a href="https://aboutmonica.com">Monica Powell</a>{" "}
         </p>{" "}
-        <TwitterFollowButton screenName={"waterproofheart"} />
+        <TwitterFollowButton screenName={"waterproofheart"} /> &bull;{" "}
+        <a
+          href="https://twitter.com/httriri"
+          target="_blank"
+          rel="me noopener noreferrer"
+        >
+          @httriri
+        </a>
       </div>
     </footer>
   );
