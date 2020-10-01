@@ -111,21 +111,26 @@ export const statuses = [
     title: "Internal server error",
     description: "Rihanna does not understand the question",
   },
-	{
-		code: 502,
-		title: "Bad gateway",
-		description: "Rihanna not impressed by the bad request",
-	},
-	{
-		code: 503,
-		title: "Service unavailable",
-		description: "Rihanna sitting by the edge of the pool waving",
-	},
-	{
-		code: 508,
-		title: "Loop detected",
-		description: "Rihanna moving her hands in a looping motion",
-	},
+  {
+      code: 502,
+      title: "Bad gateway",
+      description: "Rihanna not impressed by the bad request",
+  },
+  {
+      code: 503,
+      title: "Service unavailable",
+      description: "Rihanna sitting by the edge of the pool waving",
+  },
+  {
+    code: 506,
+    title: "Variant Also Negotiates",
+    description: "Rihanna sitting by the edge of the pool waving",
+  },
+  {
+      code: 508,
+      title: "Loop detected",
+      description: "Rihanna moving her hands in a looping motion",
+  },
 
 ];
 
