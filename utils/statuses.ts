@@ -28,6 +28,7 @@ const statuses = [
   },
   { code: 202, title: "Accepted", description: "Rihanna with a bob winking" },
   {code : 204, title:"No Content", description:"Rihanna sitting and saying why},
+  { code: 206, title: "Partial Content", description: "Rihanna saying \"It's me in a collection\" while infront of a solid white background" },
   {
     code: 300,
     title: "Multiple Choices",
