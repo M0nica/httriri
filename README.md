@@ -30,7 +30,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Adding a New Status Code
 
-- The GIF should include Rihanna and not already be included on https://www.httriri.com/. Project maintainers reserve the right to determine whether or not a particular Rihanna GIF reflects the status code in question.
+- The GIF should include Rihanna and not already be included on https://www.httriri.com/. In rare cases, a GIF that already exists in the HTTRIRI collection can be used for another status code but within the same set of proposed changes a new GIF should be chosen for the other status code to ensure there are no duplicate images and the overall size of the collection is growing. 
+- Project maintainers reserve the right to determine whether or not a particular Rihanna GIF reflects the status code in question.
 - New GIFs should be added to the `/public/images` folder and named like [statuscode].gif
 - The statuses file should be updated to include the new status code in `statuses` https://github.com/M0nica/httriri/blob/main/utils/statuses.ts
 
