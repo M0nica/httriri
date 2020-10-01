@@ -5,6 +5,14 @@ export default function SEO() {
     <Head>
       <meta property="og:title" content="HTTRiRi" />
       <title>HTTRiRi</title>
+      <link
+        rel="webmention"
+        href="https://webmention.io/www.httriri.com/webmention"
+      />
+      <link
+        rel="pingback"
+        href="https://webmention.io/www.httriri.com/xmlrpc"
+      />
       <link rel="icon" href="/favicon.ico" />
       <meta
         property="og:image"
