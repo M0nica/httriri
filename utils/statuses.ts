@@ -15,6 +15,12 @@ const statuses = [
     description:
       "Rihanna nodding her head while cheering on Lizzo at the BET Awards 2019",
   },
+  {
+    code: 201,
+    title: "Created",
+    description:
+      "Rihanna walking with joy in the Man Down video",
+  },
   { code: 202, title: "Accepted", description: "Rihanna with a bob winking" },
   {
     code: 300,
