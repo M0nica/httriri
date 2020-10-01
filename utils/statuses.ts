@@ -10,6 +10,11 @@ const statuses = [
     description: "Rihanna splashing water around in a music video",
   },
   {
+    code: 102,
+    title: "Processing",
+    description: "Rihanna tapping the side of her head with her finger, in thought.",
+  },
+  {
     code: 200,
     title: "OK",
     description:
