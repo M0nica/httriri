@@ -99,6 +99,11 @@ const statuses = [
     title: "Service unavailable",
     description: "Rihanna sitting by the edge of the pool waving",
   },
+  {
+    code: 599,
+    title: "Network Connect Timeout Error",
+    description: "Rihanna sitting on couch saying awkward",
+  },
 ];
 
 export default statuses;
