@@ -4,7 +4,7 @@ about:
   This template is for quickly capturing status codes from https://httpstatuses.com/
   that need to be added to httriri
 title: Add Rihanna GIF for Status Code [statusCodeNum]
-labels: good first issue, hacktoberfest
+labels: good first issue
 assignees: ""
 ---
 
