@@ -99,6 +99,11 @@ const statuses = [
     title: "Service unavailable",
     description: "Rihanna sitting by the edge of the pool waving",
   },
+  {
+    code: 500,
+    title: "Internal server error",
+    description: "Rihanna does understand the question",
+  }
 ];
 
 export default statuses;
