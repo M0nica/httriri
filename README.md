@@ -47,6 +47,19 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 Note the code, title and description (which is used for [image alt text](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) are all required. The title should match the title on https://httpstatuses.com/ for that particular status code.
 
+## Creating Gifs
+Here is some resources for creating GIFS:
+
+- [EzGif](http://ezgif.com/video-to-gif) - Web
+- [Giftuna.io](http://giftuna.io/) - Open source. Windows, Linux, Mac
+- [GifMaker](https://play.google.com/store/apps/details?id=com.gif.gifmaker) - Android
+- [Giphy Capture](https://giphy.com/apps/giphycapture)
+
+The simple way to creating gifs is using [EzGif](http://ezgif.com/video-to-gif)
+* On the website header, click on *Video to gif* option
+* Upload the video file or URL
+* Click on Upload video
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
