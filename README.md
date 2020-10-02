@@ -53,7 +53,6 @@ Here is some resources for creating GIFS:
 - [EzGif](http://ezgif.com/video-to-gif) - Web
 - [Giftuna.io](http://giftuna.io/) - Open source. Windows, Linux, Mac
 - [GifMaker](https://play.google.com/store/apps/details?id=com.gif.gifmaker) - Android
-- [Giphy Capture](https://giphy.com/apps/giphycapture)
 
 The simple way to creating gifs is using [EzGif](http://ezgif.com/video-to-gif)
 * On the website header, click on *Video to gif* option
