@@ -102,7 +102,7 @@ const statuses = [
   {
     code: 500,
     title: "Internal server error",
-    description: "Rihanna does understand the question",
+    description: "Rihanna does not understand the question",
   }
 ];
 
