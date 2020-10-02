@@ -99,6 +99,11 @@ const statuses = [
     title: "Service unavailable",
     description: "Rihanna sitting by the edge of the pool waving",
   },
+{
+    code: 504,
+    title: "Gateway Timeout",
+    description: "Rihanna rolling up the car window",
+  },
 ];
 
 export default statuses;
