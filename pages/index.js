@@ -4,10 +4,12 @@ import Header from "../components/header";
 import Disclaimer from "../components/disclaimer";
 import StatusCodeGrid from "../components/statusCodeGrid";
 import Footer from "../components/footer";
+import React from "react"
+
 
 export default function Home() {
   return (
-    <>
+    <React.Fragment>
       <SEO />
       <Banner />
       <div className="container">
@@ -62,6 +64,6 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
-    </>
+    </React.Fragment>
   );
 }
