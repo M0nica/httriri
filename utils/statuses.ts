@@ -1,4 +1,4 @@
-const statuses = [
+export const statuses = [
 	{
 		code: 100,
 		title: "Continue",
