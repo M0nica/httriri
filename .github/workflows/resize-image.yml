@@ -1,0 +1,23 @@
+name: Resize images
+
+on:
+  pull_request:
+    paths:
+      - 'public/images/*.gif'
+
+jobs:
+  resize-images:
+    name: resize image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Resize large images to 300px width
+        run: pwd && ls -alh && mogrify -resize '300>' public/images/*.gif
+      - name: Add & Commit files
+        run: |
+          git checkout $GITHUB_HEAD_REF
+          git config --local user.email "github-action[bot]@github.com"
+          git config --local user.name "GitHub Resize Images Bot"
+          git add .
+          git commit -m "Resize large images to 300px" -a
+          git push -u origin $GITHUB_HEAD_REF -f
