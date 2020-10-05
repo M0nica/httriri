@@ -109,6 +109,11 @@ const statuses = [
     title: "Internal server error",
     description: "Rihanna does not understand the question",
   },
+   { 
+     code: 502,
+     title: "Bad gateway",
+     description: "Rihanna not impressed by the bad request",
+  },
   {
     code: 503,
     title: "Service unavailable",
