@@ -1,0 +1,27 @@
+# For all PRs, this workflow will
+#     - Install deps
+#     - Test
+name: CI
+
+on:
+  # will run on all PRs that are opened or updated (synchronized)
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    env:
+      CI: true
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 13.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 13.x
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Test
+        run: npm run test
