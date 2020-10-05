@@ -1,50 +1,60 @@
 const statuses = [
-  {
-    code: 100,
-    title: "Continue",
-    description: "Rihanna with red hair asking if 'You ready?'",
+	{
+		code: 100,
+		title: "Continue",
+		description: "Rihanna with red hair asking if 'You ready?'",
+	},
+	{
+		code: 101,
+		title: "Switching Protocols",
+		description: "Rihanna splashing water around in a music video",
+	},
+	{
+		code: 102,
+		title: "Processing",
+		description:
+			"Rihanna tapping the side of her head with her finger, in thought.",
+	},
+	{
+		code: 200,
+		title: "OK",
+		description:
+			"Rihanna nodding her head while cheering on Lizzo at the BET Awards 2019",
+	},
+	{
+		code: 201,
+		title: "Created",
+		description: "Rihanna walking with joy in the Man Down video",
+	},
+	{ code: 202, title: "Accepted", description: "Rihanna with a bob winking" },
+	{
+		code: 206,
+		title: "Partial Content",
+		description:
+			'Rihanna saying "It\'s me in a collection" while infront of a solid white background',
   },
   {
-    code: 101,
-    title: "Switching Protocols",
-    description: "Rihanna splashing water around in a music video",
-  },
-  {
-    code: 102,
-    title: "Processing",
-    description: "Rihanna tapping the side of her head with her finger, in thought.",
-  },
-  {
-    code: 200,
-    title: "OK",
+    code: 207,
+    title: "Multi-Status",
     description:
-      "Rihanna nodding her head while cheering on Lizzo at the BET Awards 2019",
+      "Rihanna making a confused and irritated facial expression while talking over a phone",
   },
-  {
-    code: 201,
-    title: "Created",
-    description:
-      "Rihanna walking with joy in the Man Down video",
-  },
-  { code: 202, title: "Accepted", description: "Rihanna with a bob winking" },
-  { code: 206, title: "Partial Content", description: "Rihanna saying \"It's me in a collection\" while infront of a solid white background" },
-  {
-    code: 300,
-    title: "Multiple Choices",
-    description:
-      "Rihanna dancing on stage with a pink outfit with an ensemble of background dancers behind her wearing outfits with the same shade of pink.",
-  },
-  {
-    code: 301,
-    title: "Moved Permanently",
-    description: "Rihanna peacefully sipping from a coconut",
-  },
-  {
-    code: 400,
-    title: "Bad Request",
-    description: "Rihanna shaking her finger 'no'",
-  },
-
+	{
+		code: 300,
+		title: "Multiple Choices",
+		description:
+			"Rihanna dancing on stage with a pink outfit with an ensemble of background dancers behind her wearing outfits with the same shade of pink.",
+	},
+	{
+		code: 301,
+		title: "Moved Permanently",
+		description: "Rihanna peacefully sipping from a coconut",
+	},
+	{
+		code: 400,
+		title: "Bad Request",
+		description: "Rihanna shaking her finger 'no'",
+	},
   {
     code: 402,
     title: "Payment Required",
@@ -89,6 +99,11 @@ const statuses = [
     title: "Upgrade required",
     description: "Rihanna putting a crown on her head!",
   },
+   {
+    code: 500,
+    title: "Internal server error",
+    description: "Rihanna does not understand the question",
+  },
   {
     code: 429,
     title: "Too many requests",
@@ -99,11 +114,6 @@ const statuses = [
     title: "Service unavailable",
     description: "Rihanna sitting by the edge of the pool waving",
   },
-  {
-    code: 500,
-    title: "Internal server error",
-    description: "Rihanna does not understand the question",
-  }
 ];
 
 export default statuses;
