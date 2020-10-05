@@ -117,6 +117,11 @@ export const statuses = [
 		title: "Service unavailable",
 		description: "Rihanna sitting by the edge of the pool waving",
 	},
+	{
+		code: 508,
+		title: "Loop detected",
+		description: "Rihanna moving her hands in a looping motion",
+	},
 ];
 
 export default statuses;
