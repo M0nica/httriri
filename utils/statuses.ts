@@ -51,7 +51,12 @@ export const statuses = [
 		description: "Rihanna peacefully sipping from a coconut",
 	},
 	{
-		code: 400,
+		code: 307,
+    title: "Temporary Redirect",
+    description: "Rihanna asking you to come here with her finger",
+  },
+  {
+    code: 400,
 		title: "Bad Request",
 		description: "Rihanna shaking her finger 'no'",
 	},
