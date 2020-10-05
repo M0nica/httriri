@@ -28,6 +28,11 @@ export const statuses = [
 	},
 	{ code: 202, title: "Accepted", description: "Rihanna with a bob winking" },
 	{
+		code: 204,
+		title: "No Content",
+		description: "Rihanna kissing goodbye",
+	},
+	{
 		code: 206,
 		title: "Partial Content",
 		description:
