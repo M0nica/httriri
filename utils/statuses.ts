@@ -55,7 +55,6 @@ export const statuses = [
 		title: "Bad Request",
 		description: "Rihanna shaking her finger 'no'",
 	},
-
 	{
 		code: 402,
 		title: "Payment Required",
@@ -107,6 +106,11 @@ export const statuses = [
 		description:
 			"Rihanna standing up and saying 'I don't like you right now'",
 	},
+  {
+    code: 500,
+    title: "Internal server error",
+    description: "Rihanna does not understand the question",
+  },
 	{
 		code: 502,
 		title: "Bad gateway",
@@ -122,6 +126,7 @@ export const statuses = [
 		title: "Loop detected",
 		description: "Rihanna moving her hands in a looping motion",
 	},
+
 ];
 
 export default statuses;
