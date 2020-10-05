@@ -1,4 +1,4 @@
-const statuses = [
+export const statuses = [
 	{
 		code: 100,
 		title: "Continue",
@@ -32,7 +32,13 @@ const statuses = [
 		title: "Partial Content",
 		description:
 			'Rihanna saying "It\'s me in a collection" while infront of a solid white background',
-	},
+  },
+  {
+    code: 207,
+    title: "Multi-Status",
+    description:
+      "Rihanna making a confused and irritated facial expression while talking over a phone",
+  },
 	{
 		code: 300,
 		title: "Multiple Choices",

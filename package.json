@@ -2,21 +2,32 @@
   "name": "httriri",
   "version": "0.1.0",
   "private": true,
+  "main": "./pages/index.js",
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "test": "jest",
     "start": "next start",
     "export": "next export"
   },
   "dependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.14",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-twitter-embed": "^3.0.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
     "@types/node": "^14.0.13",
     "@types/react": "^16.9.36",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
     "typescript": "^3.9.5"
   }
 }
