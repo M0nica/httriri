@@ -39,6 +39,7 @@ export const statuses = [
     description:
       "Rihanna making a confused and irritated facial expression while talking over a phone",
   },
+	{code: 226, title: "Im Used", description: "Rihanna looking back"},
 	{
 		code: 300,
 		title: "Multiple Choices",
