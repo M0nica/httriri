@@ -99,15 +99,15 @@ const statuses = [
     title: "Upgrade required",
     description: "Rihanna putting a crown on her head!",
   },
+ {
+    code: 429,
+    title: "Too many requests",
+    description: "Rihanna standing up and saying 'I don't like you right now'",
+  },
    {
     code: 500,
     title: "Internal server error",
     description: "Rihanna does not understand the question",
-  },
-  {
-    code: 429,
-    title: "Too many requests",
-    description: "Rihanna standing up and saying 'I don't like you right now'",
   },
   {
     code: 503,
