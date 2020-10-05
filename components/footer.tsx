@@ -22,7 +22,7 @@ export default function Footer() {
             Source Code
           </a>{" "} &bull;
           <a
-            href="https://github.com/M0nica/httriri#adding-a-new-status-code/"
+            href="https://github.com/M0nica/httriri#adding-a-new-status-code"
             target="_blank"
             rel="me noopener noreferrer"
           >
