@@ -12,9 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          # Ref needed to work on forked repo
-          ref: ${{ github.event.pull_request.head.ref }}
       - name: Resize large images to 300px width
         run: |
           for filename in public/images/*.gif; do
