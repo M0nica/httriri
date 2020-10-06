@@ -12,6 +12,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+         ref: ${{ github.event.pull_request.head.sha }}
       - name: Resize large images to 300px width
         run: |
           for filename in public/images/*.gif; do
