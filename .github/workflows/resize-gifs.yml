@@ -33,6 +33,5 @@ jobs:
             git config --local user.name github-actions
             git add .
             git commit -m "Resize large images to 300px" -a
-            current_branch=$(git symbolic-ref HEAD 2>/dev/null)
-            git push origin ${current_branch}
+            git push
           fi
