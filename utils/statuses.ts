@@ -38,7 +38,7 @@ export const statuses = [
     title: "Multi-Status",
     description:
       "Rihanna making a confused and irritated facial expression while talking over a phone",
-  },
+	},
 	{
 		code: 300,
 		title: "Multiple Choices",
@@ -100,6 +100,7 @@ export const statuses = [
 			"Rihanna waving her hand saying 'Just wanna forget about it'",
 	},
 	{ code: 418, title: "I'm a teapot", description: "Rihanna sipping tea" },
+	{ code: 423, title: "Locked", description: "Rihanna with a prison sign" },
 	{
 		code: 426,
 		title: "Upgrade required",
