@@ -1,0 +1,37 @@
+name: Resize gifs
+
+on:
+  pull_request:
+    paths:
+      - 'public/images/*.gif'
+
+jobs:
+  resize-images:
+    name: resize image
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+         ref: ${{ github.event.pull_request.head.sha }}
+      - name: Resize large images to 300px width
+        run: |
+          for filename in public/images/*.gif; do
+            width=$( identify -ping -format '%w ' $filename | cut -d " " -f 1)
+            if (( $width > 300 )); then
+              echo "GIF $filename has width $width. Resizing to 300px width"
+              mogrify -resize 300 $filename
+            else
+              echo "GIF $filename has width $width. Not resizing."
+            fi
+          done
+      - name: Add & Commit files
+        run: |
+          # only commit if files were changed
+          if [[ $(git diff --stat) != '' ]]; then
+            git config --local user.email github-actions@github.com
+            git config --local user.name github-actions
+            git add .
+            git commit -m "Resize large images to 300px" -a
+            git push
+          fi
