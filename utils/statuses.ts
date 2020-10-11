@@ -136,8 +136,7 @@ export const statuses = [
 		code: 508,
 		title: "Loop detected",
 		description: "Rihanna moving her hands in a looping motion",
-	},
-
+	}
 ];
 
 export default statuses;
