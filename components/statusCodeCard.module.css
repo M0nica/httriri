@@ -1,22 +1,22 @@
 .card {
-  margin: 1em;
+    margin: 1em;
 }
 
 .gif {
-  max-width: 100%;
-  width: 300px;
-  height: 190px;
-  object-fit: cover;
-  border: 3px solid #b4747d;
+    max-width: 100%;
+    width: 300px;
+    height: 190px;
+    object-fit: cover;
+    border: 3px solid #b4747d;
 }
 
 .link {
-  color: #b4747d;
-  font-weight: bold;
-  text-decoration: none;
+    color: #b4747d;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .link:hover {
-  color: #a75c66;
-  text-decoration: underline;
+    color: #a75c66;
+    text-decoration: underline;
 }
