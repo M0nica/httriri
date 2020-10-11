@@ -111,6 +111,12 @@ export const statuses = [
 		description:
 			"Rihanna standing up and saying 'I don't like you right now'",
 	},
+	{
+		code: 444,
+		title: "Connection closed without response",
+		description:
+			"Angry Rihanna violently hanging up and slamming phone down",
+	},
   {
     code: 500,
     title: "Internal server error",
