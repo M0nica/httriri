@@ -59,6 +59,12 @@ Here are some resources for creating GIFs:
 * Upload the video file or URL
 * Click on Upload video
 
+## Finding GIFs
+Here are some tips for finding GIFs:
+* When using Google, track down any GIF by clicking "Search Tools" under the search bar, then go into the "Any Type" dropdown and select "Animated."
+* You can make use of [Tumblr](https://www.tumblr.com/), the GIF's natural habitat to find cool GIFs.
+* Find the GIF you are looking for by searching a term or set of terms in the search bar atop [giphy](https://giphy.com/).
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
