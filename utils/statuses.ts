@@ -1,55 +1,61 @@
 export const statuses = [
-	{
-		code: 100,
-		title: "Continue",
-		description: "Rihanna with red hair asking if 'You ready?'",
-	},
-	{
-		code: 101,
-		title: "Switching Protocols",
-		description: "Rihanna splashing water around in a music video",
-	},
-	{
-		code: 102,
-		title: "Processing",
-		description:
-			"Rihanna tapping the side of her head with her finger, in thought.",
-	},
-	{
-		code: 200,
-		title: "OK",
-		description:
-			"Rihanna nodding her head while cheering on Lizzo at the BET Awards 2019",
-	},
-	{
-		code: 201,
-		title: "Created",
-		description: "Rihanna walking with joy in the Man Down video",
-	},
-	{ code: 202, title: "Accepted", description: "Rihanna with a bob winking" },
+  {
+    code: 100,
+    title: 'Continue',
+    description: "Rihanna with red hair asking if 'You ready?'",
+  },
+  {
+    code: 101,
+    title: 'Switching Protocols',
+    description: 'Rihanna splashing water around in a music video',
+  },
+  {
+    code: 102,
+    title: 'Processing',
+    description:
+      'Rihanna tapping the side of her head with her finger, in thought.',
+  },
+  {
+    code: 200,
+    title: 'OK',
+    description:
+      'Rihanna nodding her head while cheering on Lizzo at the BET Awards 2019',
+  },
+  {
+    code: 201,
+    title: 'Created',
+    description: 'Rihanna walking with joy in the Man Down video',
+  },
+  {code: 202, title: 'Accepted', description: 'Rihanna with a bob winking'},
+  { code: 203, title: "Non-Authoritative Information", description: "Rihanna showing her nails" },
   { code: 205, title: "Reset Content", description: "Rihanna growling" },
-  { code: 206, title: "Partial Content", description: "Rihanna saying \"It's me in a collection\" while infront of a solid white background" },
+  {
+    code: 206,
+    title: 'Partial Content',
+    description:
+      'Rihanna saying "It\'s me in a collection" while infront of a solid white background',
+  },
   {
     code: 207,
-    title: "Multi-Status",
+    title: 'Multi-Status',
     description:
-      "Rihanna making a confused and irritated facial expression while talking over a phone",
+      'Rihanna making a confused and irritated facial expression while talking over a phone',
   },
-	{
-		code: 300,
-		title: "Multiple Choices",
-		description:
-			"Rihanna dancing on stage with a pink outfit with an ensemble of background dancers behind her wearing outfits with the same shade of pink.",
-	},
-	{
-		code: 301,
-		title: "Moved Permanently",
-		description: "Rihanna peacefully sipping from a coconut",
-	},
-	{
-		code: 307,
-    title: "Temporary Redirect",
-    description: "Rihanna asking you to come here with her finger",
+  {
+    code: 300,
+    title: 'Multiple Choices',
+    description:
+      'Rihanna dancing on stage with a pink outfit with an ensemble of background dancers behind her wearing outfits with the same shade of pink.',
+  },
+  {
+    code: 301,
+    title: 'Moved Permanently',
+    description: 'Rihanna peacefully sipping from a coconut',
+  },
+  {
+    code: 307,
+    title: 'Temporary Redirect',
+    description: 'Rihanna asking you to come here with her finger',
   },
   {
     code: 400,
@@ -107,6 +113,12 @@ export const statuses = [
 		description:
 			"Rihanna standing up and saying 'I don't like you right now'",
 	},
+	{
+		code: 444,
+		title: "Connection closed without response",
+		description:
+			"Angry Rihanna violently hanging up and slamming phone down",
+	},
   {
     code: 500,
     title: "Internal server error",
@@ -127,7 +139,11 @@ export const statuses = [
 		title: "Loop detected",
 		description: "Rihanna moving her hands in a looping motion",
 	},
-
+   {
+    code: 599,
+    title: 'Network Connect Timeout Error',
+    description: 'Rihanna looking angry',
+  },
 ];
 
 export default statuses;
