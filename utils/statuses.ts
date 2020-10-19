@@ -27,6 +27,7 @@ export const statuses = [
     description: 'Rihanna walking with joy in the Man Down video',
   },
   {code: 202, title: 'Accepted', description: 'Rihanna with a bob winking'},
+  { code: 203, title: "Non-Authoritative Information", description: "Rihanna showing her nails" },
   {
     code: 206,
     title: 'Partial Content',
