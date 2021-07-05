@@ -29,7 +29,7 @@ export default function Footer() {
                         rel="me noopener noreferrer">
                         Add a Status Code
                     </a>
-                    <TwitterFollowButton screenName={"waterproofheart"} />{" "}
+                    <TwitterFollowButton screenName={"indigitalcolor"} />{" "}
                 </p>{" "}
             </div>
         </footer>
