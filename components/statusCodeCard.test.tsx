@@ -27,7 +27,7 @@ describe("StatusCodeCard", () => {
         expect(img.src).toContain(`/images/${code}.gif`);
     });
 
-    it("should render link tag with link to statuses come with passed code and description contains code and tittle", () => {
+    it("should render link tag with link to httpstatuses webpage for the passed  code and description contains code and title", () => {
         const [link]: any = container.getElementsByTagName("a");
 
         expect(link.href).toBe(`https://httpstatuses.com/${code}`);
