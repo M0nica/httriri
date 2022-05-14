@@ -28,48 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Adding a New Status Code
 
-- The GIF should include Rihanna and not already be included on https://www.httriri.com/. In rare cases, a GIF that already exists in the HTTRIRI collection can be used for another status code but within the same set of proposed changes a new GIF should be chosen for the other status code to ensure there are no duplicate images and the overall size of the collection is growing. 
-- Project maintainers reserve the right to determine whether or not a particular Rihanna GIF reflects the status code in question.
-- New GIFs should be added to the `/public/images` folder and named like [statuscode].gif
-- The statuses file should be updated to include the new status code in `statuses`. Note the statusCodes should appear in the `statuses` object in ascending order. https://github.com/M0nica/httriri/blob/main/utils/statuses.ts
-
-- For status code 404. I added a new image `404.gif` to `/public/images` and updated statuses.ts to include:
-
-```{
-    code: 404,
-    title: "Not Found",
-    description:
-      "Rihanna singing Story of my life Searching for the right But it keeps avoiding me",
-  },
-```
-
-Note the code, title and description (which is used for [image alt text](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) are all required. The title should match the title on https://httpstatuses.com/ for that particular status code.
-
-## Creating GIFs
-Here are some resources for creating GIFs:
-
-- [EzGif](http://ezgif.com/video-to-gif) - Web
-- [Giftuna.io](http://giftuna.io/) - Open source. Windows, Linux, Mac
-- [GifMaker](https://play.google.com/store/apps/details?id=com.gif.gifmaker) - Android
-
- Creating GIFs with [EzGif](http://ezgif.com/video-to-gif)
-* On the website header, click on *Video to gif* option
-* Upload the video file or URL
-* Click on Upload video
-
-## Finding GIFs
-Here are some tips for finding GIFs:
-* When using Google, track down any GIF by clicking "Search Tools" under the search bar, then go into the "Any Type" dropdown and select "Animated."
-* You can make use of [Tumblr](https://www.tumblr.com/), the GIF's natural habitat to find cool GIFs.
-* Find the GIF you are looking for by searching a term or set of terms in the search bar atop [giphy](https://giphy.com/).
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
+If you're interested in contributing to httriri, please check out the [contributor guide](/CONTRIBUTING.md) and our open [issues](/issues)
