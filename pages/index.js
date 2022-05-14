@@ -1,5 +1,4 @@
 import SEO from "../components/seo";
-import Banner from "../components/banner";
 import Header from "../components/header";
 import Disclaimer from "../components/disclaimer";
 import StatusCodeGrid from "../components/statusCodeGrid";
