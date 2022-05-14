@@ -10,7 +10,6 @@ export default function Home() {
     return (
         <React.Fragment>
             <SEO />
-            <Banner />
             <div className="container">
                 <main>
                     <Header />
