@@ -41,6 +41,11 @@ export const statuses = [
     description:
       'Rihanna making a confused and irritated facial expression while talking over a phone',
   },
+	{ 
+   code: 208, 
+   title: "Already Reported",
+   description: "Rihanna blowing a kiss"
+  },
   {
     code: 300,
     title: 'Multiple Choices',
