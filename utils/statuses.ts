@@ -28,6 +28,7 @@ export const statuses = [
   },
   {code: 202, title: 'Accepted', description: 'Rihanna with a bob winking'},
   { code: 203, title: "Non-Authoritative Information", description: "Rihanna showing her nails" },
+  { code: 205, title: "Reset Content", description: "Rihanna growling" },
   {
     code: 206,
     title: 'Partial Content',
