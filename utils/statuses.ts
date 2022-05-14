@@ -33,6 +33,11 @@ export const statuses = [
     code: 204, title: "No Content", description: "Rihanna sitting and saying why"
   },
   {
+    code: 205,
+    title: "Reset Content",
+    description: "Rihanna growling"
+  },
+  {
     code: 206,
     title: 'Partial Content',
     description:
@@ -43,6 +48,16 @@ export const statuses = [
     title: 'Multi-Status',
     description:
       'Rihanna making a confused and irritated facial expression while talking over a phone',
+  },
+  {
+    code: 208,
+    title: "Already Reported",
+    description: "Rihanna blowing a kiss"
+  },
+  {
+    code: 226,
+    title: "Im Used",
+    description: "Rihanna looking back"
   },
   {
     code: 300,
