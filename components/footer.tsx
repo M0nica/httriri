@@ -11,7 +11,8 @@ export default function Footer() {
                     ©{new Date().getFullYear()} &bull; Made with
                     <a
                         href="https://www.fentybeauty.com/"
-                        className={styles.iconLink}>
+                        className={styles.iconLink}
+                    >
                         💄
                     </a>{" "}
                     by <a href="https://aboutmonica.com">Monica Powell</a>{" "}
@@ -19,14 +20,16 @@ export default function Footer() {
                     <a
                         href="https://github.com/M0nica/httriri/"
                         target="_blank"
-                        rel="me noopener noreferrer">
+                        rel="me noopener noreferrer"
+                    >
                         Source Code
                     </a>{" "}
                     &bull;
                     <a
                         href="https://github.com/M0nica/httriri#adding-a-new-status-code"
                         target="_blank"
-                        rel="me noopener noreferrer">
+                        rel="me noopener noreferrer"
+                    >
                         Add a Status Code
                     </a>
                     <TwitterFollowButton screenName={"indigitalcolor"} />{" "}
