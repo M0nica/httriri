@@ -47,6 +47,11 @@ export const statuses = [
    description: "Rihanna blowing a kiss"
   },
   {
+    code: 226, 
+    title: "Im Used",
+    description: "Rihanna looking back"
+  },
+  {
     code: 300,
     title: 'Multiple Choices',
     description:
