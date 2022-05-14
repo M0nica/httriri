@@ -129,6 +129,7 @@ export const statuses = [
             "Rihanna waving her hand saying 'Just wanna forget about it'",
     },
     { code: 418, title: "I'm a teapot", description: "Rihanna sipping tea" },
+    { code: 423, title: "Locked", description: "Rihanna with a prison sign" },
     {
         code: 426,
         title: "Upgrade required",
