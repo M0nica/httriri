@@ -11,7 +11,8 @@ export default function Banner() {
                 #BlackLivesMatter ✊🏽✊🏾✊🏿 &bull;{" "}
                 <a
                     className={styles.donationLink}
-                    href="https://www.blackgirlscode.com/donations.html">
+                    href="https://www.blackgirlscode.com/donations.html"
+                >
                     Donate to Black Girls Code
                 </a>
             </blockquote>
