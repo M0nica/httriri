@@ -28,6 +28,7 @@ export const statuses = [
   },
   {code: 202, title: 'Accepted', description: 'Rihanna with a bob winking'},
   { code: 203, title: "Non-Authoritative Information", description: "Rihanna showing her nails" },
+  { code: 205, title: "Reset Content", description: "Rihanna growling" },
   {
     code: 206,
     title: 'Partial Content',
@@ -39,6 +40,16 @@ export const statuses = [
     title: 'Multi-Status',
     description:
       'Rihanna making a confused and irritated facial expression while talking over a phone',
+  },
+	{ 
+   code: 208, 
+   title: "Already Reported",
+   description: "Rihanna blowing a kiss"
+  },
+  {
+    code: 226, 
+    title: "Im Used",
+    description: "Rihanna looking back"
   },
   {
     code: 300,
