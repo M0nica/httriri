@@ -46,12 +46,13 @@ Never made an open source contribution before? Wondering how contributions work 
 
 - For status code 404. I added a new image `404.gif` to `/public/images` and updated statuses.ts to include:
 
-```{
+```js
+ {
     code: 404,
     title: "Not Found",
     description:
       "Rihanna singing Story of my life Searching for the right But it keeps avoiding me",
-  },
+  }
 ```
 
 Note the code, title and description (which is used for [image alt text](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt) are all required. The title should match the title on https://httpstatuses.com/ for that particular status code.
