@@ -153,6 +153,11 @@ export const statuses = [
         description: "Rihanna does not understand the question",
     },
     {
+        code: 501,
+        title: "Not implemented",
+        description: "Rihanna looking confused and pointing like 'who\'s that?'",
+    },
+    {
         code: 502,
         title: "Bad gateway",
         description: "Rihanna not impressed by the bad request",
