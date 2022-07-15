@@ -80,6 +80,11 @@ export const statuses = [
         description: "Rihanna peacefully sipping from a coconut",
     },
     {
+        code: 303,
+        title: "See Other",
+        description: "Rihanna ignoring somebody",
+    },
+    {
         code: 307,
         title: "Temporary Redirect",
         description: "Rihanna asking you to come here with her finger",
